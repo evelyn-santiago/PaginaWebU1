@@ -10,47 +10,76 @@
 </head>
 <body>
 
-    <!-- Barra de navegación fija -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed">
-        <div class="container-fluid">
-            <div class="row w-100 align-items-center">
-                
-                <!-- Selects con Cards -->
-                <div class="col-auto">
-                    <div class="card bg-dark text-white border-0">
-                        <select class="form-select bg-dark text-white">
-                            <option>Ordena</option>
-                        </select>
+        <!-- Barra de navegación fija -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed">
+            <div class="container-fluid">
+                <div class="row w-100 align-items-center">
+                    
+                    <!-- Selects con Cards -->
+                     <!-- imagen -->
+                     <div class="col-md-1">
+                        <div class="card-body" >
+                            <div align="left">
+                                <img src="./imagenes/LOGO1.png" class="img-fluid" alt="Logo el rincon de las pizzas">
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-auto">
-                    <div class="card bg-dark text-white border-0">
-                        <select class="form-select bg-dark text-white">
-                            <option>Menú</option>
-                        </select>
+                     <!-- fin -->
+                    <!-- boton ordena -->
+                    <div class="col-auto p-1 m-0">
+                        <div class = "dropdown">
+                            <button class="btn btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Ordena
+                              </button>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">A domicilio</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">En tienda</a></li>
+                              </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="col-auto">
-                    <div class="card bg-dark text-white border-0">
-                        <select class="form-select bg-dark text-white">
-                            <option>Promos</option>
-                        </select>
+                    <!-- fin -->
+                     <!-- boton menu -->
+                     <div class="col-auto p-1 m-0">
+                        <div class = "dropdown">
+                            <button class="btn btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menú
+                              </button>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Pizzas</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Pollo</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Adicionales</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Bebidas</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Postres</a></li>
+                              </ul>
+                        </div>
                     </div>
-                </div>
-<div class="container">
-                <!-- Título centrado -->
-                <div class="col text-center">
-                    <a class="navbar-brand">EL RINCÓN DE LA PIZZA</a>
-                </div>
-
-                <!-- Botones a la derecha -->
-                <div class="col-auto ms-auto">
-                    <button class="btn btn-outline-light">Iniciar sesión</button>
-                    <button class="btn btn-outline-light">Carrito</button>
+                    <!-- fin -->
+                    <div class="col-auto p-1 m-0">
+                        <div class="card bg-dark text-white border-0">
+                            <select class="form-select bg-dark text-white">
+                                <option>Promos</option>
+                            </select>
+                        </div>
+                    </div>
+    
+                    <!-- Título centrado -->
+                    <div class="col text-center">
+                        <a class="navbar-brand">EL RINCÓN DE LA PIZZA</a>
+                    </div>
+    
+                    <!-- Botones a la derecha -->
+                    <div class="col-auto ms-auto">
+                        <button class="btn btn-outline-light">Iniciar sesión</button>
+                        <button class="btn btn-outline-light">Carrito</button>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
     <!-- Sección de bienvenida -->
     <header class="bg-primary text-white text-center py-5" style="background-image: url(pt.jpg);">
@@ -64,25 +93,25 @@
     <div class="carousel-inner">
         <!-- Inicio del contenedor de la imagen 1 -->
       <div class="carousel-item active">
-        <img src="/imagenes/Banner1.png" class="d-block w-100" alt="Pizza artesanal">
+        <img src="./imagenes/Banner1.png" class="d-block w-100" alt="Pizza artesanal">
       </div>
       <!-- Cierre del contenedor de la imagen 1 -->
 
       <!-- Inicio del contenedor de la imagen 2 -->
       <div class="carousel-item">
-        <img src="/imagenes/Banner4.png" class="d-block w-100" alt="Pizza doble queso">
+        <img src="./imagenes/Banner4.png" class="d-block w-100" alt="Pizza doble queso">
       </div>
         <!-- Cierre del contenedor de la imagen 2 -->
 
         <!-- Inicio del contenedor de la imagen 3 -->
       <div class="carousel-item">
-        <img src="/imagenes/Banner3.png" class="d-block w-100" alt="Pizza con hierbas">
+        <img src="./imagenes/Banner3.png" class="d-block w-100" alt="Pizza con hierbas">
       </div>
         <!-- Cierre del contenedor de la imagen 3 -->
 
         <!-- Inicio del contenedor de la imagen 4 -->
       <div class="carousel-item">
-        <img src="/imagenes/Banner2.png" class="d-block w-100" alt="Pizza de peperoni">
+        <img src="./imagenes/Banner2.png" class="d-block w-100" alt="Pizza de peperoni">
       </div>
         <!-- Cierre del contenedor de la imagen 4 -->
 
@@ -113,7 +142,7 @@
         <div class="card mt-4">
             <div class="card-header"><center>Bombas Pepperoni</center></div>
             <div class="card-body" >
-                <img src="/imagenes/bouns.jpg" alt="Bombs" class="img-fluid" style="width: 280px; height: 280px; " >
+                <img src="./imagenes/bouns.jpg" alt="Bombs" class="img-fluid" style="width: 280px; height: 280px; " >
                 <p>Precio: $59 la orden.</p>
               </div>
         </div>
@@ -125,7 +154,7 @@
         <div class="card mt-4">
             <div class="card-header"><center>Pizza Pepperoni con hierbas</center></div>
             <div class="card-body">
-          <img src="/imagenes/pizaa_chorizo.jpg" alt="Pizza de peperoni con hierbas" class="img-fluid" style="width: 280px;
+          <img src="./imagenes/pizaa_chorizo.jpg" alt="Pizza de peperoni con hierbas" class="img-fluid" style="width: 280px;
           height: 280px">
           <p>Precio: $99 la pizza pequeña.</p>
             </div>
@@ -138,7 +167,7 @@
         <div class="card mt-4">
             <div class="card-header"><center>Pizza Barbacoa</center></div>
             <div class="card-body"> 
-                <img src="/imagenes/carne-fria.jpg" alt="Pizza con barcaboa" class="img-fluid" style="width: 280px;
+                <img src="./imagenes/carne-fria.jpg" alt="Pizza con barcaboa" class="img-fluid" style="width: 280px;
                 height: 280px">
                 <p>Precio: $89 la pizza pequeña.</p>
 
@@ -152,7 +181,7 @@
         <div class="card mt-4">
             <div class="card-header"><center>Combo del día</center> </div>
             <div class="card-body"> 
-                <img src="/imagenes/combos-pizza.jpg" alt="Pizzas en oferta" class="img-fluid" style="width: 280px;
+                <img src="./imagenes/combos-pizza.jpg" alt="Pizzas en oferta" class="img-fluid" style="width: 280px;
                 height: 280px">
                 <p>Precio: $169, incluye 2 pizzas pequeñas y dos refrescos de 355ml. </p>
 
